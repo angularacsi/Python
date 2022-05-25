@@ -1,3 +1,6 @@
+from tkinter import N
+
+
 n=5
 
 while n>0:
@@ -49,5 +52,22 @@ list1=[2,4,5,3,1,7,9,9]
 for value in list1:
      sums =value + sums
 print(sums)
+
+
+#the smallest number
+
+smallest=None
+
+list2=[4,6,8,10,2,5,8]
+sorted =list2.sort()
+print(list2)
+     
+print(min(list2))
+
+#is and is not operators
+list3=[3,7,8,9,1]
+print(list3 is None)
+print(list3 is not None)
+
 
 

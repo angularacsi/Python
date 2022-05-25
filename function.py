@@ -34,3 +34,12 @@ def add(a,b):
 
 
 print(add(3,5),"is the result")
+
+
+astr = 'Hello Bob'
+istr = 0
+try:
+    istr = int(astr)
+except:
+    istr = -1
+print(istr)
