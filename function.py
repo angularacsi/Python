@@ -43,3 +43,19 @@ try:
 except:
     istr = -1
 print(istr)
+
+def person(name,age=20):#default arguments
+    print(name,age)
+
+
+person('wale',27) #position argument
+person(age=26,name="tadese")
+
+def sums(*b):#variable length arguments
+    c=0
+    for i in b:
+        c=c+i
+    print(c)
+
+
+sums(6,8,34,12,45)
