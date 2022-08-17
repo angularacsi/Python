@@ -49,7 +49,7 @@ def person(name,age=20):#default arguments
 
 
 person('wale',27) #position argument
-person(age=26,name="tadese")
+person(age=26,name="tadese")#key word arguments
 
 def sums(*b):#variable length arguments
     c=0
@@ -59,3 +59,12 @@ def sums(*b):#variable length arguments
 
 
 sums(6,8,34,12,45)
+
+def information(**data):#key word variable length arguments
+    #print(name)
+    #print(data)
+    for i,j in data.items():
+        print(i,j)
+
+
+information(name="walelign",city='bahir dar',age=27,mstatus="married")
